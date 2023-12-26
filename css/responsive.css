@@ -75,7 +75,15 @@
 }
 
 @media (max-width: 640px) {
-	.tp-caption {display: none !important;}	
+	/* .tp-caption {display: none !important;}	 */
+	.rev_slider_wrapper .factory-caption-h1 {
+		font-size: 100px;
+		color: #fff;
+		line-height: 100px;
+		font-weight: bold;
+		text-align: center;
+	  }
+	.rev_slider_wrapper .tparrows{display: none !important;}
 	header.header .single-header-right {margin-left: 0;display: block;margin-bottom: 25px;text-align: center;}
 	header.header .single-header-right .icon-box, header.header .single-header-right .content-box {display: inline-block;text-align: left;}
 	.mainmenu-wrapper.stricky-fixed {position: relative;}
@@ -112,6 +120,7 @@
 	.subscription ul.social li a {font-size: 16px;}
 	.call-to-action-home {overflow: hidden;}
 	.certifications-area{ min-height: 80vh;}
+	.montg{margin-top:1% !important;}
 }
 
 

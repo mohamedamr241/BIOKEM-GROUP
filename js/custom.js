@@ -49,10 +49,13 @@ function revolutionSliderActiver () {
 			sliderLayout:"auto",
 			delay:5000,
 			navigation: {
-				arrows:{enable:true} 
+				arrows:{enable:true,top: "80%"},
+				swipe: true 
 			}, 
 			gridwidth:1170,
-			gridheight:600
+			gridheight:[600, 1400],
+			responsiveLevels: [1170, 1024, 778, 480],
+			
 		});
 	};
 }
@@ -572,7 +575,23 @@ function scrollToTarget () {
 		});
 	}
 }
+function updateDataY() {
+	var screenWidth = $(window).width();
+	var element = $("#yourElement");
+	var element1 = $("#yourElement1");
+	var element2 = $("#yourElement2");
+	if (screenWidth <= 768) { // You can adjust the threshold for mobile view
+		element.attr("data-y", "center");
+		element.attr("data-x", "center");
 
+		element1.attr("data-y", "center");
+		element1.attr("data-x", "center");
+
+		element2.attr("data-y", "center");
+		element2.attr("data-x", "center");
+
+	} 
+}
 
 
 
@@ -603,7 +622,7 @@ jQuery(document).on('ready', function () {
 		videoFancybox();
 		scrollToTarget();
 		contactFormValidation();
-		
+		updateDataY();
 	})(jQuery);
 });
 
@@ -619,4 +638,7 @@ jQuery(window).on('scroll', function () {
 	(function ($) {
 		stickyHeader();
 	})(jQuery);
+});
+$(window).resize(function () {
+	updateDataY();
 });

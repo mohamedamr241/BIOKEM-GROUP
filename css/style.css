@@ -95,6 +95,7 @@ h6 {
 .mb0 {
   margin-bottom: 0 !important;
 }
+
 .thm-btn {
   border: none;
   outline: none;
@@ -305,6 +306,7 @@ ul.post-pagination li a {
   cursor: pointer;
   background: url(../img/resources/gallery-filter-pattern.jpg) repeat top left;
 }
+
 /* ==============================
    3. Header styles
    ============================== */
@@ -740,6 +742,7 @@ header.header .single-header-right .thm-btn {
 /* ==============================
    4. Slider styles
    ============================== */
+
 .rev_slider_wrapper .factory-caption-h1 {
   font-size: 60px;
   color: #fff;
@@ -800,6 +803,8 @@ header.header .single-header-right .thm-btn {
   color: #fbca00;
   text-decoration: underline;
 }
+
+
 /* ==============================
    2. certificate area
    ============================== */
