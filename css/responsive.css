@@ -121,6 +121,9 @@
 	.call-to-action-home {overflow: hidden;}
 	.certifications-area{ min-height: 80vh;}
 	.montg{margin-top:1% !important;}
+	.about .about-img {
+		margin: 10px;
+	  }
 }
 
 
