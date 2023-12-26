@@ -1,0 +1,64 @@
+.round {
+    position: absolute;
+    left:80%;
+    top:2%;
+    background: #4e5255;
+    width: 50px;
+    height: 50px;
+    line-height: 33px;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+  
+.round i {
+    pointer-events: none; /* Prevent the camera icon from capturing clicks */
+    font-size: 30px;
+    margin-top: 9px;
+}
+@media (min-width: 768px) and (max-width: 1190px) {
+    .round{
+        left:70%;
+    }
+}
+
+@keyframes cart-animation {
+    0% {
+      transform: rotate(0deg) scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: rotate(180deg) scale(0.7);
+      opacity: 0.5;
+    }
+    100% {
+      transform: rotate(360deg) scale(0);
+      opacity: 0;
+    }
+}
+  
+/* Apply the animation to the cart icon when the 'cart-animate' class is added */
+i.cart-animate {
+    animation: cart-animation 1s linear infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes spin-animation {
+    0% {
+      transform: rotate(0deg) scale(0);
+      opacity: 0;
+    }
+    50% {
+        transform: rotate(-180deg) scale(0.7);
+        opacity: 0.5;
+    }
+    100% {
+        transform: rotate(-360deg) scale(1);
+        opacity: 1;
+    }
+}
+  
+/* Apply the animation to elements with the "cart-spin" class */
+.cart-spin {
+    animation: spin-animation 1s linear infinite; /* Spin animation lasting 1 second */
+    animation-fill-mode: forwards;
+}

@@ -1,0 +1,173 @@
+@media (max-width: 1024px) {
+	.top-bar .top-info ul li {margin-left: 15px;}
+	.top-bar .social {margin-left: 15px;}
+	header.header .logo {float: none !important;text-align: center;margin-bottom: 20px;}
+	header.header .header-right {float: none !important;}
+	header.header .single-header-right {margin-left: 260px;}
+	header.header .logo::before {left: 50%;margin-left: -166.5px;}
+	.call-to-action {margin-top: -3px;text-align: center; height: 150px; }
+	.call-to-action p {font-size: 17px; line-height: 30px;}
+	.our-services .single-our-service-caption-box .img-box, .our-services .single-our-service-caption-box .content-box {display: block;padding: 0;text-align: center;}
+	.our-services .single-our-service-caption-box .img-box {width: 100%;text-align: center;margin-bottom: 30px;}
+	.about-section .about-text-wrapper .img-box {margin-bottom: 30px;}
+	.about-section .about-text-wrapper .img-box img {width: 32%;}
+	.about-section.about-page .about-text-wrapper .img-box img {width: 32.3%;}
+	.single-team-member p.position {font-size: 15px;}
+	.single-team-member p {font-size: 13px;}
+	.faq-blog-section .faq-accrodion {margin-bottom: 80px;}
+	.single-fact-counter .icon-box {width: 40px;}
+	.single-fact-counter .icon-box i {font-size: 40px;}
+	.single-fact-counter .text-box .number {font-size: 29px;}
+	.single-fact-counter .text-box p {font-size: 13px;}
+	.single-fact-counter {padding-top: 30px;padding-bottom: 30px;}
+	.single-fact-counter.bdrn {border-right: 0;}
+	.single-service-page .img-box img {width: 49%;}
+	.news-content .single-blog-post .content-box .bottom-box h3 {font-size: 21px;}
+	.single-contact-info .text-box p {font-size: 13px;}
+	.single-contact-info .text-box h3 {font-size: 20px;margin-bottom: 0;}
+	.footer-widget {margin-bottom: 30px;}
+	.single-service-page .img-box img:only-child {width: 100%;}
+	.single-service-page .two-col-img-box .box-left {width: 53%;}
+}
+
+@media (max-width: 768px) {
+	.top-bar {padding-bottom: 30px;}
+	.top-bar .pull-left,
+	.top-bar .pull-right {float: none !important;text-align: center;}
+	.top-bar .top-info ul li {font-size: 13px;}
+	.top-bar .social ul li a {width: 32px;height: 32px;line-height: 32px;font-size: 15px;}
+	#polyglotLanguageSwitcher {width: 110px;margin-left: auto;margin-right: auto;}
+	#polyglotLanguageSwitcher a {margin-left: auto;margin-right: auto;}
+	#polyglotLanguageSwitcher span.trigger {right: 0;}
+	header.header {padding-top: 20px;}
+	header.header .single-header-right {margin-left: 25px;}
+	header.header .single-header-right .icon-box i {font-size: 30px;}
+	header.header .single-header-right .icon-box {width: 30px;}
+	header.header .single-header-right .content-box b {font-size: 17px;}
+	header.header .single-header-right .content-box p {font-size: 14px;}
+	header.header .logo::before {top: -37px;}
+	.bottom-footer .pull-left,
+	.bottom-footer .pull-right {float: none !important;text-align: center;}
+	.bottom-footer .right-text {margin-top: 10px;}
+	.home-contact-form {margin-top: 80px;}
+	.call-to-action-home h3 br {display: none;}
+	.single-team-member {margin-bottom: 30px;}
+	.single-team-member p.position {font-size: 18px;}
+	.single-team-member p {font-size: 16px;}
+	.single-our-service {margin-bottom: 30px;}
+	.our-services p {font-size: 15px;}
+	.about-section.about-page .about-text-wrapper .img-box img {width: 31.3%;}
+	.fact-counter-section .container {border: none;}
+	.single-fact-counter {border: 1px solid #f4f4f4 !important;}
+	.our-services.service-page .has-divider {border: none;margin-top: 0;padding-top: 0;	}
+	.no-container.our-features .single-our-feature {margin-top: 30px;}
+	.single-service-page .video-box img {width: 100%;}
+	.single-project-content .single-project-customer-info {margin-bottom: 40px;}
+	.shop-page .has-divider {margin-top: 0;padding-top: 0;border: none;}
+	.single-shop-item {margin-bottom: 30px;}
+	.update-cart-box .pull-left,
+	.update-cart-box .pull-right {float: none !important;}
+	.single-contact-info {margin-bottom: 30px;padding-top: 15px;padding-bottom: 15px;}
+	.switcher{ top:60px;}
+	.best-features .left-content {
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 640px) {
+	.tp-caption {display: none !important;}	
+	header.header .single-header-right {margin-left: 0;display: block;margin-bottom: 25px;text-align: center;}
+	header.header .single-header-right .icon-box, header.header .single-header-right .content-box {display: inline-block;text-align: left;}
+	.mainmenu-wrapper.stricky-fixed {position: relative;}
+}
+
+@media (max-width: 600px) {
+	.top-bar .top-info {margin-bottom: 15px;}
+	.top-bar .top-info ul li {font-size: 14px;line-height: 24px;}
+	.our-services .single-our-service .img-box img {width: 100%;}
+	.about-section .about-text-wrapper .img-box img {width: 48%;}
+	.single-team-member .img-box img {width: 100%;}
+	.single-blog-post {padding: 20px;}
+	.single-blog-post .img-box, .single-blog-post .content-box {display: block;margin: 0;padding: 0;text-align: center;}
+	.single-blog-post .img-box {margin-left: auto;margin-right: auto;margin-bottom: 30px;}
+	.about-section.about-page .about-text-wrapper .img-box img {width: 47.3%;}
+	.mixit-gallery .mix {width: 100%;}
+	ul.gallery-filter li span {margin-bottom: 10px;}
+	.product-content-box .img-box, .product-content-box .content-box {display: block;padding-left: 0;padding-top: 20px;padding-bottom: 20px;}
+	.review-box .single-review-box .text-box .top-box .pull-left,
+	.review-box .single-review-box .text-box .top-box .pull-right {float: none !important;}
+	.inner-banner {padding: 50px 0; height: 250px;}
+	.inner-banner h2 {font-size: 47px;}
+}
+@media (max-width: 420px) {
+	.about-section .about-text-wrapper .img-box img {width: 47%;}
+	.section-title h2 span {font-size: 31px;line-height: 40px;}
+	.mainmenu-wrapper .search-box {width: 70%;}
+	header.header .logo::before {display: none;}
+	.accrodion .accrodion-title h4:before {float: left;}
+	.accrodion .accrodion-title h4 span {float: left;width: 80%;line-height: 30px;}
+	.single-blog-post .content-box ul > li > a {font-size: 13px;}
+	.bottom-footer::before {display: none;}
+	.subscription button {padding: 0 40px;}
+	.subscription ul.social li a {font-size: 16px;}
+	.call-to-action-home {overflow: hidden;}
+}
+
+
+/* menu responsive styles */
+
+
+@media (min-width: 1025px) {
+	.mainmenu-holder .nav-header .navigation .dropdown-expander {display: none;}
+}
+@media (max-width: 1024px) {
+	.mainmenu-holder .nav-header {
+		/*display: none;*/
+	}
+	.mainmenu-wrapper .container {position: relative;}
+	.mainmenu-holder .nav-footer > ul > li {padding-bottom: 0;}
+	.mainmenu-holder .nav-footer {margin-left: 0;padding: 15px 0;}
+	.mainmenu-holder .nav-header {position: absolute;top:100%;left:0;width: 100%;overflow: auto;max-height: 0px;transition-property: all; transition-duration: .5s; transition-timing-function: cubic-bezier(0, 1, 0.5, 1);z-index: 99999999;display: block;}
+	.mainmenu-holder .nav-header.closed {max-height: 0;}
+	.mainmenu-holder .nav-header.opened {max-height: 70vh;}
+	.mainmenu-holder .nav-header > ul {padding: 0 5px;}
+	.mainmenu-holder .nav-header > ul > li {display: block;margin-left: 0;padding: 0;}
+	.mainmenu-holder .nav-header > ul > li > a {display: block;}
+	.mainmenu-holder .nav-header .navigation .dropdown-expander {display: block;}
+	.mainmenu-holder .nav-header > ul > li > ul, .mainmenu-holder .nav-header > ul > li > ul > li > ul {width: 100%;position: static;opacity: 1 !important;max-height: 0px;overflow: auto;transition-property: all !important; transition-duration: .5s !important; transition-timing-function: cubic-bezier(0, 1, 0.5, 1) !important;opacity: 1 !important;visibility: visible !important; }
+	.mainmenu-holder .nav-header > ul > li > ul.closed, .mainmenu-holder .nav-header > ul > li > ul > li > ul.closed {max-height: 0;}
+	.mainmenu-holder .nav-header > ul > li > ul.opened, .mainmenu-holder .nav-header > ul > li > ul > li > ul.opened {max-height: 600px;}
+	.mainmenu-holder .nav-header > ul > li.dropdown > a:after {display: none;}
+}
+
+/*Fix box layout*/
+@media (min-width: 1200px) and (max-width: 1390px) {
+	.boxed_wrapper.active_boxlayout {
+		width: 1180px;
+		margin:0 auto;
+		overflow: hidden;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.boxed_wrapper.active_boxlayout {
+		width: 980px;
+		margin:0 auto;
+		overflow: hidden;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.boxed_wrapper.active_boxlayout {
+		width: 760px;
+		margin:0 auto;
+		overflow: hidden;
+	}
+}
+@media (max-width: 767px) {
+	.boxed_wrapper.active_boxlayout {
+		width: 96%;
+		margin:0 auto;
+		overflow: hidden;
+	}
+}
+/*End Fix box Layout*/

@@ -1,0 +1,111 @@
+body * {
+    margin:0;
+    padding:0;
+ }
+.drop-down li {
+    position:relative;
+    display:block;
+    opacity:0;
+    cursor:pointer;
+    margin: 0px;
+    width: 300px;
+
+    
+ }
+ .drop-down ul{
+    margin-left: 0px;
+ }
+ .drop-down li > ul {
+    position: absolute;
+    pointer-events:none;
+ }
+ .drop-down > ul { display:flex; }
+ 
+ .drop-down > ul > li { pointer-events: all; opacity:1; }
+ ul li a { white-space:nowrap; display:block; }
+    
+ li:hover > ul {
+    pointer-events:initial;
+ }
+ li:hover > ul > lo,
+ ul:hover > lo{
+    opacity:1;
+ }
+ .drop-down > ul > li li ul {
+    transform:translateX(100%);
+    top:0; right:0;
+ }
+
+ 
+ .drop-down { 
+    margin-top: 40px;
+    margin-left: 0px;
+ }
+ 
+ .drop-down a {
+    background:#fff;
+    color:black;
+    min-width:190px;
+    font-size: large;
+    transition: background 0.5s, color 0.5s, transform 0.5s;
+    margin:0px 6px 6px 0px;
+    padding:20px 40px;
+    box-sizing:border-box;
+    border-radius:15px;
+    border: 2px solid black;
+    /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5); */
+    position:relative;
+    
+ }
+ 
+ .drop-down a:active:before {
+    content: '';
+    top:0;left:0;
+    position:absolute;
+    background:rgba(0, 0, 0, 0.2);
+    width:100%;
+    height:100%;
+    border-radius:15px;
+ }
+ 
+ .drop-down > ul > li > a + ul:after{
+    content: '';
+    position:absolute;
+    border:10px solid transparent;
+    border-top: 10px solid black;
+    left:12px;
+    top: -40px;  
+ }
+ .drop-down li > ul > li > a + ul:after{ 
+    content: '';
+    position:absolute;
+    border:10px solid transparent;
+    border-left: 10px solid white;
+    top: 20px;
+    left:-180px;
+    transition: opacity 0.6, transform 0s;
+ }
+ 
+ .drop-down > ul > li > ul > li{
+    transition: transform 0.6s, opacity 0.6s;
+    transform:translateY(150%);
+    opacity:0;
+ }
+ .drop-down > ul > li:active > ul > li,
+ .drop-down > ul > li.hover > ul > li{
+    transform:translateY(0%);
+    opacity: 1;
+ }
+ 
+ li > ul > li > ul > li{
+    transition: transform 0.6s, opacity 0.6s;
+    transform:translateX(195px) translateY(0%);
+    opacity: 0;
+ } 
+ li > ul > li:active > ul > li,  
+ li > ul > li.hover > ul > li{  
+    transform:translateX(0) translateY(0%);
+    opacity: 1;
+ }
+ 
+ 
