@@ -246,6 +246,31 @@ function testimonialsCarosuleGardener () {
 		    }
 		});
 	}
+	if ($('.certifications-area').length) {
+		$('.certifications-area .owl-carousel').owlCarousel({
+			loop: true,
+			margin: 0,
+			nav: false,
+			dots: true,
+			autoplay: true,
+			smartSpeed: 1000,
+			autoplayHoverPause: true,
+			responsive: {
+				0:{
+					items: 1
+				},
+				480:{
+					items: 1
+				},
+				600:{
+					items: 1
+				},
+				1000:{
+					items: 1
+				}
+			}
+		});
+	}
 }
 // 12. testimonails carousel
 function relatedProjectCarosule () {

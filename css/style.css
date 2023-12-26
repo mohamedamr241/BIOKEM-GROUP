@@ -814,15 +814,15 @@ header.header .single-header-right .thm-btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center; 
+    text-align: center;  
 }
-.sec-title {
+.certifications-area .sec-title {
   position: relative;
   display: block;
   margin-top: -7px;
   padding-bottom: 73px;
 }
-.sec-title p {
+.certifications-area .sec-title p {
   font-size: 22px;
   line-height: 30px;
   margin: 36px 0 0;
@@ -853,8 +853,8 @@ header.header .single-header-right .thm-btn {
     max-width: 170px;
     width: 100%;
     margin: 0 auto;
-    background: #000000;
-    border: 1px solid #000000;
+    background: #000000 !important;
+    border: 1px solid #000000 !important;
     text-align: center;
     padding: 30px 0 23px;
     transition: all 900ms ease;
@@ -892,27 +892,6 @@ header.header .single-header-right .thm-btn {
     width: 100%;
     margin: 0 auto;    
 }
-.certifications-area .owl-carousel{
-    display: block;
-    max-width: 170px;
-    width: 100%;
-    margin: 0 auto;
-}
-.certifications-area .owl-carousel .owl-stage-outer{
-	overflow: visible;
-	padding: 0px 0px 40px;
-}
-.certifications-area .owl-carousel .owl-stage-outer .owl-item.active .single-certifications{
-	background: #ffffff;
-    border-color: #ffffff;
-}
-.certifications-area .owl-carousel .owl-stage-outer .owl-item.active .single-certifications .icon span:before{
-    color: #f4b601;
-}
-.certifications-area .owl-carousel .owl-stage-outer .owl-item.active .single-certifications .title h3{
-    color: #222222;    
-}
-
 .certifications-area .owl-dots {
     position: relative;
     display: block;
@@ -950,7 +929,7 @@ header.header .single-header-right .thm-btn {
 
 .single-certifications {
   /* Optionally, you can add styles for individual certification items */
-  margin-right: 20px; /* Adjust spacing between certifications */
+  margin-bottom: 20px; /* Adjust spacing between certifications */
 }
 #cert{
   color: #222222;
