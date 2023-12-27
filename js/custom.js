@@ -580,7 +580,7 @@ function updateDataY() {
 	var element = $("#yourElement");
 	var element1 = $("#yourElement1");
 	var element2 = $("#yourElement2");
-	if (screenWidth <= 768) { // You can adjust the threshold for mobile view
+	if (screenWidth <= 1039) { // You can adjust the threshold for mobile view
 		element.attr("data-y", "center");
 		element.attr("data-x", "center");
 
