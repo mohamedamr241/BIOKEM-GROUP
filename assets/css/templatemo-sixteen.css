@@ -517,10 +517,12 @@ a.filled-button:hover {
   }
   
 .categ:nth-child(odd) {
-	background-color: rgba(0,0,0,0.78);
+	/* background-color: rgba(0,0,0,0.78); */
+	background-color: #d2d1d1;
 }
 .categ:nth-child(odd) p{
-	color:#d7d6d6;
+	/* color:#d7d6d6; */
+
 }
 .best-features .container .row {
 	border-bottom: 1px solid #eee;
@@ -552,12 +554,11 @@ a.filled-button:hover {
 	color: #f4b601;
 	margin-bottom: 20px;
 }
-.best-features h3 {
-	font-size: 25px;
+.best-features .categ-header {
+	font-size: 33px;
 	color: #f4b601;
 	margin-bottom: 20px;
 }
-
 .best-features ul.featured-list li {
 	display: block;
 	margin-bottom: 10px;

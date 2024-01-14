@@ -72,6 +72,13 @@
 	.best-features .left-content {
 		margin-bottom: 30px;
 	}
+	.whatsapp_float {
+        width: 55px;
+        height: 55px;
+        bottom: 20px;
+        left:10px;
+        font-size: 22px;
+      }
 }
 
 @media (max-width: 640px) {
