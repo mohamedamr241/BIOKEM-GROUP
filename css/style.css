@@ -3050,6 +3050,24 @@ body.bg {
     transform: rotate(360deg);
   }
 }
+/* Hygiene - kitchen */
+
+.hygieneHeading{
+  text-align: center;
+}
+.hygieneHeading h3 {
+  display: inline-block;
+  margin: 0 20px;
+  margin-bottom: 20px; 
+  position: relative;
+  transition: color 0.3s;
+}
+.hygieneHeading h3:hover {
+  color: #fbca00; 
+}
+.hygieneActive{
+  color: #fbca00; 
+}
 
 /* best-features */
 .best-features {
@@ -3135,3 +3153,4 @@ body.bg {
 @media (min-width: 768px) and (max-width: 991px) {
   
 }
+

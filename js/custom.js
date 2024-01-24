@@ -642,3 +642,20 @@ jQuery(window).on('scroll', function () {
 $(window).resize(function () {
 	updateDataY();
 });
+var $grid = $(".grid").isotope({
+    itemSelector: ".all", // or use ".generalUse, .tools" if you want to include both categories
+    percentPosition: true,
+    masonry: {
+        columnWidth: ".col-lg-4", // Use the class of the grid items (adjust as needed)
+    },
+    filter: ".generalUse" // Set the initial filter to show items with class "tools"
+});
+
+$('.hygieneHeading h3').click(function(){
+	$('.hygieneHeading h3').removeClass('hygieneActive');
+    $(this).addClass('hygieneActive');
+    var data = $(this).attr('data-filter');
+    $grid.isotope({
+        filter: data
+    });
+});
