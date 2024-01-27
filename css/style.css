@@ -3063,10 +3063,14 @@ body.bg {
   transition: color 0.3s;
 }
 .hygieneHeading h3:hover {
+  transition: 0.3s;
   color: #fbca00; 
+  border-bottom: 3px solid #fbca00;
 }
 .hygieneActive{
+  transition: 0.3s;
   color: #fbca00; 
+  border-bottom: 3px solid #fbca00;
 }
 
 /* best-features */
