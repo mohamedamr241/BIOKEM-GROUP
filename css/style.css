@@ -3055,14 +3055,16 @@ body.bg {
 .hygieneHeading{
   text-align: center;
 }
-.hygieneHeading h3 {
+.hygieneHeading p {
   display: inline-block;
   margin: 0 20px;
   margin-bottom: 20px; 
   position: relative;
   transition: color 0.3s;
+  font-size: 25px;
+  font-weight: 500;
 }
-.hygieneHeading h3:hover {
+.hygieneHeading p:hover {
   transition: 0.3s;
   color: #fbca00; 
   border-bottom: 3px solid #fbca00;

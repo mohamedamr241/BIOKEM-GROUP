@@ -113,6 +113,12 @@
 	.review-box .single-review-box .text-box .top-box .pull-right {float: none !important;}
 	.inner-banner {padding: 50px 0; height: 250px;}
 	.inner-banner h2 {font-size: 47px;}
+	.hygieneHeading p {
+		margin: 0 5px;
+		margin-bottom: 0px; 
+		font-size: 20px;
+		font-weight: 500;
+	  }
 }
 @media (max-width: 420px) {
 	.about-section .about-text-wrapper .img-box img {width: 47%;}
@@ -130,6 +136,12 @@
 	.montg{margin-top:1% !important;}
 	.about .about-img {
 		margin: 10px;
+	  }
+	  .hygieneHeading p {
+		margin: 0 5px;
+		margin-bottom: 0px; 
+		font-size: 20px;
+		font-weight: 500;
 	  }
 }
 

@@ -651,8 +651,8 @@ var $grid = $(".grid").isotope({
     filter: ".generalUse" // Set the initial filter to show items with class "tools"
 });
 
-$('.hygieneHeading h3').click(function(){
-	$('.hygieneHeading h3').removeClass('hygieneActive');
+$('.hygieneHeading p').click(function(){
+	$('.hygieneHeading p').removeClass('hygieneActive');
     $(this).addClass('hygieneActive');
     var data = $(this).attr('data-filter');
     $grid.isotope({
