@@ -15,7 +15,7 @@ const goTo=(button)=>{
         window.location.href="Textile and Fabric Care Subgroups.html";
     }
     else if(button.getAttribute("name") =="Air care"){
-        window.location.href="Hause Keeping - Air Care/AirCare_products.html";
+        window.location.href="House Keeping - Air Care/AirCare_products.html";
     }
     else if(button.getAttribute("name") == "Neutralizers, softeners and finishing"){
         window.location.href="Textile and fabric care - Neutralizers, softeners and finishing/Neutralizers_softeners_finishing_products.html";
@@ -43,7 +43,7 @@ const goTo=(button)=>{
     }
     // winner
     else if(button.getAttribute("name") =="House keeping"){
-        window.location.href="Hause_Keeping_subGroups.html";
+        window.location.href="House Keeping subGroups.html";
     }
     else if(button.getAttribute("name") =="Room Care"){
         window.location.href="Room Care.html";
